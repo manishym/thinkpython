@@ -15,10 +15,10 @@ def average_speed(kms_run, h, m, s):
     average_speed(50, 4, 20, 5) -> 7.209227811598847
     '''
     time_as_float = time_to_float(h, m, s)
-    return km_to_mile(kms_run) / time_as_float
+    return km_to_mile (kms_run) / time_as_float
 
 
-def time_to_float(h,m,s):
+def time_to_float (h,m,s):
     '''(number, number, number) -> float
     Converts time given in hour, min and seconds into float time in hours
     time_to_float(1, 30, 0) -> 1.50
